@@ -1,0 +1,5 @@
+text1 = input("Введите предложение:")
+text2 = text1.split(' ')
+text2 = "-".join(text2)
+print(text2)
+print(text1.replace(' ', '-'))

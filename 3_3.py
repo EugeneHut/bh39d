@@ -1,0 +1,6 @@
+name = input("Введите имя:")
+age = int(input("Введите возраст:"))
+city = input("Введите город:")
+print("Привет %(first_name)s! Тебе %(age)d и ты живешь в %(city)s." % {'first_name': name, 'age': age, 'city': city})
+print(f"Привет {name}! Тебе {age} и ты живешь в {city}.")
+print("Привет {}! Тебе {} и ты живешь в {}.".format(name, age, city))
