@@ -4,4 +4,3 @@ my_dct = {'Belarus': ['Minsk', 'Brest', 'Hrodno'], 'Poland': ['Warsaw', 'Gdansk'
 for key, value in my_dct.items():
     if city in value:
         print(key)
-        break
